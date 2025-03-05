@@ -1,6 +1,7 @@
 # Light Analyzer
 
 封闭容器中的灯泡温度分析器，用于分析和可视化不同情况下容器内的温度分布。
+（最终目的用于爬虫箱/Reptile Terrarium内温度环境构建，目前为测试版）
 
 ## 功能特性
 
@@ -23,29 +24,6 @@
 1. 下载发布包中的 LightAnalyzer.exe
 2. 双击运行即可
 
-### 从源码构建
-
-1. 克隆代码库：
-   ```bash
-   git clone [repository-url]
-   cd light-analyzer
-   ```
-
-2. 安装依赖：
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. 检查环境：
-   ```bash
-   python check_env.py
-   ```
-
-4. 构建程序：
-   ```bash
-   build_exe.bat
-   ```
-
 ## 开发指南
 
 ### 项目结构
@@ -61,8 +39,7 @@ light_analyzer/
 
 ### 构建说明
 
-1. 运行 `test_exe.bat` 在隔离环境中测试构建
-2. 测试成功后运行 `build_exe.bat` 生成最终程序
+1. 终端运行 `pyinstaller LightAnalyzer.spec`命令从源码构建
 3. 编译后的文件位于 `dist/` 目录下
 
 ## 故障排除
