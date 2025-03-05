@@ -21,7 +21,7 @@
 
 ### 运行已编译程序
 
-1. 下载发布包中的 LightAnalyzer.exe
+1. 下载发布包中的 dist/LightAnalyzer.exe
 2. 双击运行即可
 
 ## 开发指南
